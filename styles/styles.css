@@ -38,15 +38,23 @@ header img{
 }
 /* Fin del header */
 
+
+
 /* Inicio de la section 1 */
-
-
 .sec1 h1{
     color: white;
+    font-size: 80px;
+    line-height: 80px;
+    font-family:'Open Sans', sans-serif;
+    margin-bottom: 50px;
 }
 
 .sec1 p{
     color:white;
+    font-size: 20px;
+    margin-left: 28%;
+    margin-bottom: 40px;
+    font-family: sans-serif;
 }
 
 .sec1{
@@ -63,10 +71,9 @@ header img{
     background-repeat:no-repeat ;
 }
 
-
 .sec1left{
     flex: 1;
-    background-color: aqua;
+    background-color: rgb(46, 37, 80);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,16 +81,115 @@ header img{
     padding: 20px;
 }
 
+.boton2{
+    background-color: white;
+    color: rgb(248, 103, 178);
+    border-radius: 5px;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+}
+
+.boton3{
+    background-color: rgb(46, 37, 80);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.botones{
+    border-radius: 5px;
+    border: 1px solid rgba(226, 226, 226, 0.699);
+    padding: 5px 7px 5px 7px;
+}
+
+.sec1 img{
+    width: 32%;
+    margin-left: 20%;
+    margin-top: 19%;
+}
+
+/* Fin de la section 1 */
 
 
+/* Inicio de la section 2 */
+.sec2{
+    background-color: rgb(241, 242, 247);
+    padding-bottom: 5%;
+}
 
+.sec2 img{
+    width: 40%;
+    margin-left: 22%;
+    margin-top: 4%;
+    flex-wrap: wrap;
+}
 
+.sec2 h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(244, 20, 134);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+}
 
+.derecho{
+    display: flex;
+    align-items: end;
+    margin-right: 18%;
+    justify-content: center;
+}
 
+.derecho p{
+    margin-left: 8%;
+    font-size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 
+.derecho li{
+    margin-bottom: 5px;
+}
 
+.texto{
+    text-align:justify;
+    margin-left: 80px;
+    margin-bottom: 40px;
+}
 
+.texto h3{
+    font-size: 35px;
+    color: rgb(194, 81, 139);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    margin-left: 28px;
+}
 
+.texto h4{
+    color: rgb(226, 113, 173);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 28px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+/* Fin de la section 2 */
+
+.sec3{
+    display: flex;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    justify-content: space-around;
+    background-color: rgb(30, 23, 47);
+    color: white;
+}
+
+.tarjetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+}
 
 
 
