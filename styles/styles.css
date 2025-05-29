@@ -47,12 +47,13 @@ header img{
     line-height: 80px;
     font-family:'Open Sans', sans-serif;
     margin-bottom: 50px;
+    margin-left: 52px;
 }
 
 .sec1 p{
     color:white;
-    font-size: 20px;
-    margin-left: 28%;
+    font-size: 26px;
+    margin-left: 37%;
     margin-bottom: 40px;
     font-family: sans-serif;
 }
@@ -87,6 +88,7 @@ header img{
     border-radius: 5px;
     border: 0;
     padding: 10px 20px 10px 20px;
+    font-size: 18px;
 }
 
 .boton3{
@@ -95,12 +97,14 @@ header img{
     padding: 10px 30px 10px 30px;
     border: 1px solid white;
     border-radius: 5px;
+    font-size: 18px;
 }
 
 .botones{
     border-radius: 5px;
     border: 1px solid rgba(226, 226, 226, 0.699);
     padding: 5px 7px 5px 7px;
+    margin-left: 12%;
 }
 
 .sec1 img{
@@ -119,15 +123,15 @@ header img{
 }
 
 .sec2 img{
-    width: 40%;
-    margin-left: 22%;
+    width: 32%;
+    margin-left: 30%;
     margin-top: 4%;
     flex-wrap: wrap;
 }
 
 .sec2 h2{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     color: rgb(244, 20, 134);
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 40px;
@@ -142,8 +146,10 @@ header img{
 
 .derecho p{
     margin-left: 8%;
-    font-size: 15px;
+    font-size: 18px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 20%;
+    line-height: 22px;
 }
 
 .derecho li{
@@ -157,16 +163,16 @@ header img{
 }
 
 .texto h3{
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(194, 81, 139);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:sans-serif;
     margin-bottom: 25px;
     margin-left: 28px;
 }
 
 .texto h4{
-    color: rgb(226, 113, 173);
-    font-size: 20px;
+    color: #E74C9C;
+    font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 40px;
     margin-bottom: 10px;
@@ -180,7 +186,7 @@ header img{
     padding-left: 15%;
     padding-right: 15%;
     background-color: rgb(30, 23, 47);
-    height: 80vh;
+    height: 77vh;
 }
 
 .tarjetas{
@@ -191,7 +197,8 @@ header img{
     color: black;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 4%;
+    margin-bottom:96px;
+    border-radius: 5px;
 }
 
 .sec3 p{
@@ -247,6 +254,7 @@ header img{
     font-family: sans-serif;
     list-style: none;
     line-height: 30px;
+    padding-right: 52px;
 }
 
 .pri{
@@ -258,26 +266,94 @@ header img{
     font-family: sans-serif;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding: 0px 30px 0px 30px;
+    padding: 13px 50px 0px 50px;
     text-align: justify;
 }
 
 .bot{
-    background-color: #8043D5;
+    background-color:#F5F5F5;
     width: 100%;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    border-radius: 5px;
 }
 
+.bot1{
+    font-size: 20px;
+    padding: 15px 20px 15px 20px;
+    background-color: rgb(244, 20, 134);
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
 
+.bot2{
+     font-size: 20px;
+    padding: 15px 20px 15px 20px;
+    background-color: #2E2550;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
 
+.tarjetas img{
+    width: 23%;
+    padding-top: 20px;
+}
+/* Fin de la section 3 */
 
+/* Inicio del footer */
 
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
 
+footer p{
+    font-size: 18px;
+    font-family: sans-serif;
+}
 
+.imagenes{
+    margin-left: 38%;
+}
 
+.img1{
+    width: 14px;
+    margin-left: 10px;
+}
 
+.i{
+    filter: brightness(0) saturate(100%) invert(43%) sepia(85%) saturate(2018%) hue-rotate(302deg) brightness(95%) contrast(90%);
+    margin-right: 40px;
+    font-size: 17px;
+}
 
+.n{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(8%) saturate(7469%) hue-rotate(355deg) brightness(103%) contrast(110%);
+    margin-right: 40px;
+    font-size: 17px;
+}
 
-footer img{
-    width: 20px;
+.img2{
+    width: 28px;
+    margin-left: 10px;
+}
+
+.img3{
+    width: 27px;
+    margin-left: 10px;
+}
+
+.img4{
+    width: 22px;
+    margin-left: 10px;
+}
+
+.mi{
+    color: #EF3594;
 }
