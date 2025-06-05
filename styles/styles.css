@@ -91,6 +91,7 @@ header img{
     font-size: 18px;
 }
 
+
 .boton3{
     background-color: rgb(46, 37, 80);
     color: white;
@@ -113,20 +114,26 @@ header img{
     margin-top: 19%;
 }
 
+
 /* Fin de la section 1 */
 
 
 /* Inicio de la section 2 */
 .sec2{
     background-color: rgb(241, 242, 247);
-    padding-bottom: 5%;
 }
 
-.sec2 img{
-    width: 32%;
+.im2{
+    width: 15px;
+    margin-right: 13px;
+    filter: brightness(0) saturate(100%) invert(43%) sepia(85%) saturate(2018%) hue-rotate(302deg) brightness(95%) contrast(90%);
+}
+
+.im1{
+     width: 32%;
     margin-left: 30%;
     margin-top: 4%;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .sec2 h2{
@@ -142,6 +149,7 @@ header img{
     align-items: end;
     margin-right: 18%;
     justify-content: center;
+    padding-bottom: 4%;
 }
 
 .derecho p{
@@ -186,7 +194,6 @@ header img{
     padding-left: 15%;
     padding-right: 15%;
     background-color: rgb(30, 23, 47);
-    height: 77vh;
 }
 
 .tarjetas{
@@ -305,7 +312,6 @@ header img{
 /* Fin de la section 3 */
 
 /* Inicio del footer */
-
 footer{
     display: flex;
     align-items: center;
@@ -356,4 +362,264 @@ footer p{
 
 .mi{
     color: #EF3594;
+}
+/* Fin del footer */
+
+
+@media (max-width:1279px){
+
+    header a {
+        font-size: 14px;
+    }
+
+    header img{
+        width: 13%;
+    }
+
+    .sec1{
+        height:auto;
+    }
+
+    .sec1 h1{
+        font-size: 60px;
+        line-height: 59px;
+        margin-bottom: 25px;
+        margin-left: 0px;
+    }
+
+    .sec1 p{
+        font-size: 16px;
+        margin-left: 25%;
+        margin-bottom: 30px;
+    }
+
+    .sec1 img{
+        width: 37%;
+        margin-bottom: 13%;
+    }
+
+    .sec2 h2{
+        font-size: 50px;
+        padding-top: 35px;
+        padding-bottom: 10px;
+    }
+
+    .boton2{
+        font-size: 12px;
+    }
+
+    .boton3{
+        font-size: 12px;
+    }
+
+    .sec3{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .derecho p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .derecho{
+        margin-right: 5%;
+    }
+
+    .im1{
+        width: 44%;
+        margin-left: 10%;
+    }
+
+    .texto{
+        margin-left: 30px;
+        margin-bottom: 0px;
+    }
+
+    .texto h3{
+        font-size: 30px;
+    }
+
+    .texto h4{
+        font-size: 20px;
+        margin-left: 30px;
+    }
+
+    .h5p p{
+        font-size: 16px;
+    }
+
+    .h5p h5{
+        font-size: 55px;
+    }
+
+    .sec3 li{
+        font-size: 15px;
+    }
+
+    .parrafo{
+        padding: 0px 20px 0px 12px;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .i{
+    margin-right: 17px;
+    font-size: 12px;
+    }
+
+    .n{
+    margin-right: 17px;
+    font-size: 12px;
+    }
+
+    .sup1{
+        font-size: 17px;
+    }
+
+    .money{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+
+    .money p{
+        font-size: 35px;
+    }
+
+    .tarjetas img{
+        width: 22%;
+        padding-top: 8px;
+    }
+
+    .bot1{
+        font-size: 16px;
+        padding: 14px 20px 14px 20px;
+    }
+
+    .bot2{
+        font-size: 16px;
+        padding: 14px 20px 14px 20px;
+    }
+
+    footer p{
+        font-size: 14px;
+    }
+
+    .imagenes{
+        margin-left: 33%;
+    }
+
+    .img1{
+        width: 12px;
+    }
+
+    .img2{
+        width: 25px;
+    }
+
+    .img3{
+        width: 26px;
+    }
+
+    .img4{
+        width: 20px;
+    }
+
+    .tarjetas{
+        margin-bottom: 8%;
+    }
+}
+
+
+@media (max-width:920px){
+
+    .sec1 p{
+        font-size: 13px;
+        margin-left: 19%;
+    }
+
+    header a{
+        font-size: 12px;
+    }
+
+    .derecho p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .texto h3{
+        margin-bottom: 14px;
+    }
+
+    .h5p p{
+        padding: 2% 16% 6% 16%;
+        font-size: 15px;
+    }
+
+    .sec3 h6{
+        font-size: 17px;
+        padding-bottom: 13px;
+    }
+
+    .sup1{
+        font-size: 15px;
+    }
+
+    .money p{
+        font-size: 30px;
+    }
+
+    .parrafo{
+        font-size: 13px;
+    }
+
+    .bot1{
+        font-size: 14px;
+        padding: 12px 18px 12px 18px;
+    }
+
+    .bot2{
+        font-size: 14px;
+        padding: 12px 18px 12px 18px;
+    }
+
+    .bot{
+        padding-top: 8px;
+        padding-bottom: 7px;
+    }
+
+    .sec3 li{
+        line-height: 26px;
+        padding-right: 15px;
+    }
+
+    .tarjetas{
+        margin-bottom: 8%;
+    }
+
+    .imagenes {
+        margin-left: 26%;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+
+    .img1 {
+        width: 10px;
+    }
+
+    .img2 {
+        width: 21px;
+    }
+
+    .img3 {
+        width: 23px;
+    }
+
+    .img4 {
+        width: 18px;
+    }
 }
